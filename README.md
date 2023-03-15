@@ -6,7 +6,7 @@
   ### And not for those script kiddies who doesent know how to code or use metaxploit.
   ### If you doesent know the meaning of the sentence "educational purposes only" you are not welcome.
   ### Please don't harm anyone using this tool. (Script kiddies  use free tools to flex)
-  ### If you are not a scriptkiddy or person who doesent know the meaning of "educational purposes only"
+  ### If you are not a scriptkiddy or person who does know the meaning of "educational purposes only"
   ### You are free to use this tool. ~
 # __
 # How to use:
